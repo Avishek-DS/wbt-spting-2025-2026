@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0 5px;
+}
+
+h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 8px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+header {
+    padding: 10px 0;
+}
+
+figure {
+    text-align: center;
+    margin: 18px 0 10px;
+}
+
+figure img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.navbar {
+    background-color: #222;
+    padding: 10px 0;
+    border-radius: 6px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+.navbar a.active {
+    background-color: #0077cc;
+    border-radius: 4px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 18px;
+    margin: 18px 0;
+}
+
+.btn {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #005fa3;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+footer a {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+footer img {
+    width: 28px;
+    height: 28px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+#div1 {
+    background-color: rgba(0, 0, 255, 0.08);
+    padding: 10px;
+}
+
+#div2 {
+    background-color: rgba(0, 255, 0, 0.08);
+    padding: 10px;
+}

@@ -1,0 +1,138 @@
+/* ===== Base ===== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* Center layout */
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* ===== Header Title ===== */
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* ===== Navbar (same style) ===== */
+.navbar {
+    background-color: #222;
+    padding: 10px 0;
+    border-radius: 6px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+/* ===== HR ===== */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+/* ===== Card Section ===== */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 900px;
+}
+
+/* Section title */
+.card h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 6px;
+}
+
+/* ===== Form/Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    vertical-align: top;
+}
+
+/* Labels */
+label,
+span {
+    font-weight: bold;
+}
+
+/* Inputs style */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 95%;
+    padding: 7px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+/* Checkbox/Radio spacing */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #555;
+}
+
+input[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
+input[type="reset"]:hover {
+    background-color: #333;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 6px;
+    margin: 20px auto;
+    width: 900px;
+}
+
+footer img {
+    margin: 0 8px;
+}
