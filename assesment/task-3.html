@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Age Check</title>
+</head>
+
+<body>
+    <label>Enter Age:</label>
+    <input type="number" id="age">
+    <p id="message"></p>
+
+    <script>
+        let ageInput = document.getElementById("age");
+        let message = document.getElementById("message");
+
+        ageInput.addEventListener("input", function () {
+            let age = Number(ageInput.value);
+
+            if (age < 40) {
+                message.textContent = "To be a part of the community, you need to at least 40";
+                message.style.color = "black";
+            }
+            else if (age >= 40 && age <= 50) {
+                message.textContent = "You are the youngsters of this community";
+                message.style.color = "black";
+            }
+            else if (age > 50) {
+                message.textContent = "Top level members of the group";
+                message.style.color = "red";
+            }
+            else {
+                message.textContent = "";
+            }
+        });
+    </script>
+</body>
+
+</html>

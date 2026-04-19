@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Uppercase Username</title>
+</head>
+
+<body>
+    <label>Username:</label>
+    <input type="text" id="username">
+
+    <script>
+        let usernameInput = document.getElementById("username");
+
+        usernameInput.addEventListener("input", function () {
+            usernameInput.value = usernameInput.value.toUpperCase();
+        });
+    </script>
+</body>
+
+</html>

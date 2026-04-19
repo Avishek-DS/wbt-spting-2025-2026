@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Absolute Position Example</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #ddd 1px, transparent 1px),
+                linear-gradient(to bottom, #ddd 1px, transparent 1px);
+            background-size: 10px 10px;
+        }
+
+        .container {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            position: relative;
+            margin: 40px;
+            background: white;
+        }
+
+        .small-box {
+            width: 60px;
+            height: 40px;
+            border: 2px solid black;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="small-box">Bottom Right</div>
+    </div>
+</body>
+
+</html>
